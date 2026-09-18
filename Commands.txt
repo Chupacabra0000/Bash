@@ -11,3 +11,12 @@ The ls command has a variety of options to customize its output:
 -1 - List one file per line
 -d - List directories themselves, not their contents
 -F - Append indicator (one of */=@|) to entries
+
+
+
+The cd command supports several useful options for navigating directories:
+
+cd ..: Move up one directory level
+cd ~: Change to the home directory
+cd -: Switch to the previous directory
+cd /: Change to the root directory
