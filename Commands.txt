@@ -86,11 +86,24 @@ The rm command has options to change how it works:
 
 
 The touch command has options to change how it works:
+touch file_{1..5}.txt
+# Creates file_1.txt, file_2.txt, file_3.txt, file_4.txt, file_5.txt
+touch *.txt will update the timestamps of all text files in the directory.
 
 -a - Update only when the file was last read
 -m - Update only when the file was last changed
 -t - Set the timestamp to a specific time
 -c - Do not create any files
+
+
+
+
+The mkdir command has several options to customize its behavior:
+
+-p - Create parent directories as needed
+      mkdir -p parent/child
+-v - Show a message for each created directory
+-m - Set file mode (permissions)
 
 
 
