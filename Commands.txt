@@ -45,3 +45,53 @@ The cat command has options to change how it shows text:
 -b - Add numbers only to lines with text
 -s - Remove extra empty lines
 -v - Show non-printing characters (except for tabs and end of line)
+
+cat file1.txt file2.txt > combined.txt
+This command takes the contents of file1.txt and file2.txt and writes them into combined.txt.
+
+cat my_file.txt | grep "shells"
+Understanding Shells
+There are different types of shells. Bash (Bourne Again SHell)
+
+
+
+The cp command has options to change how it works:
+To copy a file, use cp source_file destination_file:
+Wildcards allow you to copy multiple files at once. For example, cp *.txt /destination/ will copy all text files to the destination folder.
+
+-r - Copy all files and folders inside a directory
+-i - Ask before replacing files
+-u - Copy only if the source is newer
+-v - Verbose mode, show files being copied
+
+
+
+The mv command has several options to customize its behavior:
+To move a file, use mv source_file destination_directory:
+To rename a file, use mv old_name new_name:
+
+-i - Ask before replacing files
+-u - Move only if the source is newer
+-v - Verbose mode, show files being moved
+
+
+
+The rm command has options to change how it works:
+
+-r - Delete a folder and everything inside it
+-i - Ask before deleting each file
+-f - Force delete without asking
+-v - Verbose mode, show files being removed
+
+
+
+The touch command has options to change how it works:
+
+-a - Update only when the file was last read
+-m - Update only when the file was last changed
+-t - Set the timestamp to a specific time
+-c - Do not create any files
+
+
+
+
